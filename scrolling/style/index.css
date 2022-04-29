@@ -1,0 +1,17 @@
+#infinite-list {
+  width: 200px;
+  height: 300px;
+  overflow: auto;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+
+li {
+  padding: 10px;
+  list-style-type: none;
+}
+li:hover {
+  background: #ccc;
+}
