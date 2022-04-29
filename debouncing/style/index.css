@@ -1,0 +1,32 @@
+body {
+    font: 16px Arial;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+    width: 320px;
+}
+
+input.search {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+input.search:focus{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-color: black;
+}
+
+
+#o {
+    text-decoration: none;
+    color: #000000;
+    font-style: italic;
+    font-weight: 700;
+    position: fixed;
+    top: 15px;
+    right: 12px;
+}
